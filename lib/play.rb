@@ -39,7 +39,7 @@ end
 #Accepts a board and starts a loop of #turn
 def play(board)
   counter = 0
-  while (counter < 10)
+  while (counter < 9)
     puts "here"
     turn(board)
     counter += 1
