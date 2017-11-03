@@ -38,11 +38,11 @@ end
 
 # Define your play method below
 #Accepts a board and starts a loop of #turn
-counter = 0
-
 def play(board)
+  counter = 0
   while (counter < 10)
     puts "here"
     turn(board)
+    counter += 1
   end
 end
